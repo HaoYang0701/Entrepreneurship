@@ -1,0 +1,22 @@
+.bg-style { 
+  background: url(../image/images.jpg) no-repeat center center fixed; 
+  background-size: cover; 
+}
+.bg-style2 { 
+  background: url(../image/images2.jpg) no-repeat center center fixed; 
+  background-size: cover; 
+}
+.bg-style3 { 
+  background: url(../image/images3.jpg) no-repeat center center fixed; 
+  background-size: cover; 
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+   flex: 1 0 auto;
+}
